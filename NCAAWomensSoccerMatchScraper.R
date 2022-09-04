@@ -3,9 +3,9 @@ library(lubridate)
 library(rvest)
 library(janitor)
 
-urls <- read_csv("url_csvs/ncaa_womens_soccer_teamurls_2019.csv") %>% pull(3)
+urls <- read_csv("url_csvs/ncaa_womens_soccer_teamurls_2022.csv") %>% pull(3)
 
-season = "2019"
+season = "2022"
 
 root_url <- "https://stats.ncaa.org"
 

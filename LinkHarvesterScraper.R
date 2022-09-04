@@ -3,9 +3,9 @@ library(lubridate)
 library(rvest)
 library(janitor)
 
-urls <- read_csv("url_csvs/NCAA Women's Soccer - 2017.csv") %>% pull(1) # change this to the year you need
+urls <- read_csv("url_csvs/NCAA Women's Soccer - 2022.csv") %>% pull(1) # change this to the year you need
 
-season = "2017" # change this to match the year you are scraping
+season = "2022" # change this to match the year you are scraping
 
 root_url <- "https://stats.ncaa.org"
 
